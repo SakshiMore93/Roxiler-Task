@@ -1,0 +1,114 @@
+body{
+  background-color: #5e5d5d !important;
+}
+.container {
+    max-width: 1000px;
+   
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+     color: #333;
+    margin-left: 28%;
+   
+    
+  }
+  .h2{
+    border-radius: 50%;
+    border: 1px solid ;
+    width: 30%;
+    margin-left: 35%;
+    background-color: #45d8c7;
+  
+    
+  }
+  .form-group{
+    margin-left: 10%;
+   
+  }
+
+    .form-group1{
+        margin-left: 50%;
+    }
+  .group{
+    display: flex;
+  }
+  label{
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  #monthSelect{
+    border: 1px solid;
+  }
+  #searchInput{
+    border: 1px solid;
+    margin-bottom: 30px;
+  }
+  
+  .loading {
+    font-size: 1.5em;
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .card {
+    border: 1px solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff;
+   
+  }
+  .card-body{
+    border: 1px solid;
+  }
+  
+  .card-text {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .table {
+    background-color: #5e5d5d;
+  }
+   table th{
+    background-color: #45d8c7;
+   }
+  
+  .table th {
+    background-color: #619bd8;
+    color: #fff;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.2);
+  }
+  
+  .pagination .page-item .page-link {
+   background-color: #00ffb7;
+  
+   
+  }  
+
+  .pagination{
+    margin-left: 30%;
+  }
+  li{
+    margin-left:10% ;
+  }
+ #button{
+    border-radius: 20px;
+    width: 100px;
+ }
