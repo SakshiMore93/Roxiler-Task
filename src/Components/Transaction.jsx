@@ -5,7 +5,7 @@ import '../Components/Transaction.css'
 
 const Transaction = () => {
   const [transactions, setTransactions] = useState([]);
-  const [selectedMonth, setSelectedMonth] = useState('03'); // Default to March (03)
+  const [selectedMonth, setSelectedMonth] = useState('03'); 
   const [searchTerm, setSearchTerm] = useState('');
   const [statistics, setStatistics] = useState({ totalSaleAmount: 0, totalSoldItems: 0, totalUnsoldItems: 0 });
   const [barChartData, setBarChartData] = useState({});
@@ -52,7 +52,7 @@ const Transaction = () => {
     try {
       const response = await axios.get(`http://localhost:8080/barchart?month=${selectedMonth}`);
       setBarChartData(response.data);
-      renderBarChart(response.data); // Call render function after setting state
+      renderBarChart(response.data); 
     } catch (error) {
       console.error('Error fetching bar chart data:', error);
     }
@@ -87,12 +87,12 @@ const Transaction = () => {
 
   const handleMonthChange = (event) => {
     setSelectedMonth(event.target.value);
-    setCurrentPage(1); // Reset to first page when month changes
+    setCurrentPage(1); 
   };
 
   const handleSearchInputChange = (event) => {
     setSearchTerm(event.target.value);
-    setCurrentPage(1); // Reset to first page when search term changes
+    setCurrentPage(1);
   };
 
   const handleNextPage = () => {
